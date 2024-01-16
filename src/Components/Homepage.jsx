@@ -28,7 +28,10 @@ export default function Homepage() {
       <button onClick={increment}> + </button>
       <Todos todos={todos} addTodo={addTodo} />
 
-      {/* when we click on increment button it automatically calls the Todos Component. we dont have need of call to the Todods component  */}
+      {/* 
+        when we click on increment button it automatically calls the Todos Component. 
+        we dont have need of call to the Todods component  
+      */}
     </div>
   );
 }
